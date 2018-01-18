@@ -1,7 +1,7 @@
 package sylvain.advancedlayoutapp.fr.lilleopendata;
 
 
-import android.app.VoiceInteractor;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Fragment;
@@ -28,16 +28,14 @@ import java.util.List;
 
 import sylvain.advancedlayoutapp.fr.lilleopendata.model.ListeBibli;
 
-/**
- * A simple {@link Fragment} subclass.
- */
+
 public class ListeBibliothequeFragment extends Fragment implements AdapterView.OnItemClickListener{
     private List<ListeBibli> bibliList;
     private ListView bibliListView;
 
 
     public ListeBibliothequeFragment() {
-        // Required empty public constructor
+
     }
 
     @Override

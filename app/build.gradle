@@ -29,5 +29,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     //Bibliothèque de requête http via volley
     compile 'com.android.volley:volley:1.0.0'
+    //implementation de l'api GoogleMap
     implementation 'com.google.android.gms:play-services-maps:11.8.0'
 }
